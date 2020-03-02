@@ -13,11 +13,13 @@ img_gray = cv2.cvtColor(img_gray, cv2.COLOR_BGR2GRAY)
 # Setting the size of the plot image to 16x9 proportion
 plt.rcParams['figure.figsize'] = (16, 9)
 
+"""
 # Showing the original and the grayscale images
 plt.imshow(img)
 plt.show()
 plt.imshow(img_gray, cmap='gray')
 plt.show()
+"""
 
 # Making the threshold image using the 'thershold' function
 # It takes 4 parameters, which are:
